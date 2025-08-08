@@ -171,7 +171,7 @@ export default App;*/
     export default App;
     */
 
-
+/*
      import "./App.css";
 import TodoList from "./TodoList";
  import LudoBoard  from "./TodoList";
@@ -181,6 +181,26 @@ import TodoList from "./TodoList";
     <>
     <h3>Welcome to TodoList</h3>
     <TodoList/>
+    </>
+  );
+ }
+
+ 
+    export default App;
+    */
+
+    //TICKET NUMBERS
+
+     import "./App.css";
+    //import Ticket from "./Ticket";
+    //import TicketNum  from "./TicketNum";
+    import Lottery from "./Lottery";
+
+ function App() {
+  return (
+    <>
+      <h3>Welcome to Lottery !!!</h3>
+    <Lottery n={3} winningSum={15}/>
     </>
   );
  }

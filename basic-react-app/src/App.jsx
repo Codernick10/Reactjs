@@ -211,12 +211,31 @@ import TodoList from "./TodoList";
     */
 
     // CommentsForm
-     import CommentsForm  from "./CommentsForm";
+  /*   import CommentsForm  from "./CommentsForm";
      import "./App.css";
      function App() {
       return (
         <>
             <CommentsForm/>
+        </>
+        
+      );
+     }
+     export default App;
+     */
+
+      //Comment
+
+       import CommentsForm  from "./CommentsForm";
+       import Comment from "./Comment";
+       import "./App.css";
+          
+     function App() {
+      return (
+        <>
+           <Comment />
+            
+           
         </>
         
       );

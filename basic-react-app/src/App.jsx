@@ -216,7 +216,7 @@ import TodoList from "./TodoList";
      function App() {
       return (
         <>
-            <CommentsForm />
+            <CommentsForm/>
         </>
         
       );

@@ -1,5 +1,6 @@
      //REWRITE APP
 
+
 /*import "./App.css";
 
 function App() {
@@ -191,10 +192,10 @@ import TodoList from "./TodoList";
 
     //TICKET NUMBERS
 
-     import "./App.css";
+     /*import "./App.css";
     //import Ticket from "./Ticket";
     //import TicketNum  from "./TicketNum";
-    import Lottery from "./Lottery";
+     import Lottery from "./Lottery";
 
  function App() {
   return (
@@ -207,7 +208,20 @@ import TodoList from "./TodoList";
 
  
     export default App;
-    
+    */
+
+    // CommentsForm
+     import CommentsForm  from "./CommentsForm";
+     import "./App.css";
+     function App() {
+      return (
+        <>
+            <CommentsForm />
+        </>
+        
+      );
+     }
+     export default App;
 
     
     
